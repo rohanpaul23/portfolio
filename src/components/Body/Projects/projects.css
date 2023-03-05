@@ -1,0 +1,14 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-top: 4rem;
+}
+
+
+  .project_items{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding-top: 40px;
+  }

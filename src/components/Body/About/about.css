@@ -1,0 +1,73 @@
+.about{
+    padding-bottom: 48px;
+}
+
+.about_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.picture{
+    height: 420px;
+}
+
+.about_info{
+    font-size: 24px;
+    color: #6F3475;
+    font-weight: 300;
+}
+
+.info_name{
+    color: #6F3475;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.download_section{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.download{
+    background-color: #6F3475;
+    padding: 8px 16px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.download a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+
+@media only screen and (max-width : 720px){
+    .about_top{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .picture{
+        height: 280px;
+    }
+    .about_info{
+        font-size: 20px;
+    }
+
+    .info_name{
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width : 512px){
+    .home{
+        width: 100%;
+    }
+}
