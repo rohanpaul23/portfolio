@@ -1,90 +1,87 @@
-.email_container{
-    display: flex;
-    gap: 74px;
+.email_container {
+  display: flex;
+  gap: 74px;
 }
 
-.contact_options{
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
+.contact_options {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
 }
 
-.contact_option{
-    background: transparent;
-    padding: 1.2rem;
-    border-radius: 1.2rem;
-    text-align: center;
-    border: 2px solid;
-    border-color:  #6F3475;
-    width: 300px;
-    height: 250px;
-    color: #6F3475;
+.contact_option {
+  background: transparent;
+  padding: 1.2rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  border: 2px solid;
+  border-color: #6f3475;
+  width: 300px;
+  height: 250px;
+  color: #6f3475;
 }
 
-.contact_option:hover{
-    background: white;
-    border-color:  #6F3475;
+.contact_option:hover {
+  background: white;
+  border-color: #6f3475;
 }
 
-.contact_option-icon{
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+.contact_option-icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
-.contact_option a{
-    margin-top: 0.7rem;
-    display: inline-block;
-    font-size: 2rem;
-    color: #6F3475;
-    font-weight: 400;
+.contact_option a {
+  margin-top: 0.7rem;
+  display: inline-block;
+  font-size: 2rem;
+  color: #6f3475;
+  font-weight: 400;
 }
 
-
-form{
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
 }
 
-input,textarea{
-    width: 350px;
-    padding: 1.5rem;
-    border-radius: 0.5rem;
-    background: transparent;
-    resize: none;
-    border: 2px groove  #6F3475;
-    color: black;
-    font-size: 15px;
-    font-weight: 500;
+input,
+textarea {
+  width: 350px;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: transparent;
+  resize: none;
+  border: 2px groove #6f3475;
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 input:focus {
-    outline: none !important;
-    border-color: transparent;
-    border: 3px groove black;
-    /* //border-color: #6F3475 !important; */
+  outline: none !important;
+  border-color: transparent;
+  border: 3px groove black;
 }
 
 textarea:focus {
-    outline: none !important;
-    border-color: transparent;
-    border: 3px groove black;
+  outline: none !important;
+  border-color: transparent;
+  border: 3px groove black;
 }
 
-.message_button{
-    color: white;
-    background: #6F3475;
-    border: 2px solid;
-    border-radius: 5px;
-    padding: 15px;
-    font-size: 20px;
-    font-weight: 500;
+.message_button {
+  color: white;
+  background: #6f3475;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 500;
 }
 
-/* MEDIA QUERIES */
-
-@media screen and (max-width : 720px) {
-    .email_container{
+@media screen and (max-width: 720px) {
+  .email_container {
     flex-direction: column;
-    }
- }
+  }
+}

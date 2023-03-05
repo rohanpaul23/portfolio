@@ -1,104 +1,90 @@
-.education{
+.education {
   display: flex;
   flex-direction: column;
   flex: 1;
   padding-top: 4rem;
 }
 
-
-/* .custom-line{
-  background: brown;
-} */
-
-.vertical-timeline.vertical-timeline--two-columns{
-  --line-color: #6F3475;
+.vertical-timeline.vertical-timeline--two-columns {
+  --line-color: #6f3475;
 }
 
-.test_class{
-  box-shadow : 0 0 0 4px #6F3475, inset 0 2px 0 rgb(0 0 0 / 8%), 0 3px 0 4px rgb(0 0 0 / 5%) !important;
+.test_class {
+  box-shadow: 0 0 0 4px #6f3475, inset 0 2px 0 rgb(0 0 0 / 8%),
+    0 3px 0 4px rgb(0 0 0 / 5%) !important;
 }
 
-/* .vertical-timeline-element-icon{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  -webkit-box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgb(0 0 0 / 8%), 0 3px 0 4px rgb(0 0 0 / 5%);
-  box-shadow : 0 0 0 4px cyan, inset 0 2px 0 rgb(0 0 0 / 8%), 0 3px 0 4px rgb(0 0 0 / 5%) !important;
-} */
-/* .vertical-timeline.vertical-timeline-custom-line::before {
-  background: brown;
+.vertical-timeline.vertical-timeline-custom-line
+  .vertical-timeline-element--work
+  .vertical-timeline-element-icon {
+  box-shadow: 0 0 0 4px #6f3475, inset 0 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 
-/* Icon container's border */
-.vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--work .vertical-timeline-element-icon {
-  box-shadow: 0 0 0 4px #6F3475, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+.vertical-timeline.vertical-timeline-custom-line
+  .vertical-timeline-element--education
+  .vertical-timeline-element-icon {
+  box-shadow: 0 0 0 4px #6f3475, inset 0 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
-
-.vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--education .vertical-timeline-element-icon {
-  box-shadow: 0 0 0 4px #6F3475, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
-} */
-
 
 .vertical-timeline-element-content {
-    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
-      0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
-    padding: 2em 3em !important;
-  }
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2em 3em !important;
+}
 
-  .vertical-timeline-element-title{
-    font-weight: 600;
-    color: #6F3475;
-  }
-  
-  .vertical-timeline-element-subtitle{
-    font-weight: 500;
-    color: #6F3475;
-  }
+.vertical-timeline-element-title {
+  font-weight: 600;
+  color: #6f3475;
+}
 
-  .vertical-timeline-element-content p{
-    font-weight: 400;
-    color: #6F3475;
+.vertical-timeline-element-subtitle {
+  font-weight: 500;
+  color: #6f3475;
+}
+
+.vertical-timeline-element-content p {
+  font-weight: 400;
+  color: #6f3475;
+}
+
+.date {
+  color: #6f3475;
+}
+
+#description {
+  margin: 1.5em 0 2em 0;
+}
+
+.button {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color: white;
+}
+
+.workButton {
+  background-color: #06d6a0;
+}
+
+.workButton:hover {
+  background-color: #0ac593;
+}
+
+.schoolButton {
+  background-color: #f9c74f;
+}
+
+.schoolButton:hover {
+  background-color: #f3bc3c;
+}
+
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: rgb(44, 44, 44);
+    margin-top: 1.5em;
   }
-  
-  .date {
-    color: #6F3475;
-  }
-  
-  #description {
-    margin: 1.5em 0 2em 0;
-  }
-  
-  .button {
-    text-decoration: none;
-    padding: 0.5em 1em;
-    border-radius: 5px;
-    color: white;
-  }
-  
-  .workButton {
-    background-color: #06d6a0;
-  }
-  
-  .workButton:hover {
-    background-color: #0ac593;
-  }
-  
-  .schoolButton {
-    background-color: #f9c74f;
-  }
-  
-  .schoolButton:hover {
-    background-color: #f3bc3c;
-  }
-  
-  @media only screen and (max-width: 1700px) {
-    .vertical-timeline-element-date {
-      display: block !important;
-      float: none !important;
-      color: rgb(44, 44, 44);
-      margin-top: 1.5em;
-    }
-  }
+}
